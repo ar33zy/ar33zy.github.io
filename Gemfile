@@ -1,9 +1,11 @@
 source "https://rubygems.org"
 
-# If you have any plugins, put them here!
+gem "jekyll", "~> 3.8.5"
+
 group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.6"
   gem "jekyll-data"
 end
 
 gem "minimal-mistakes-jekyll"
+
