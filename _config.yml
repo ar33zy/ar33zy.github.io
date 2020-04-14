@@ -13,8 +13,8 @@ description              : "pwn skiddie of hackstreetboys | pwning 4 food"
 url                      : "https://ar33zy.hackstreetboys.ph"
 baseurl                  : #""
 #repository               : "ar33zy/ctf-writeups"
-teaser                   : # pat"/assets/images/500x300.png"
-logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
+teaser                   : "/assets/images/avatar.png"
+logo                     : "/assets/images/avatar.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
