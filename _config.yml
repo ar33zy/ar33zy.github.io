@@ -1,5 +1,6 @@
 
 remote_theme: "mmistakes/minimal-mistakes@4.19.1"
+#theme: minimal-mistakes-jekyll
 minimal_mistakes_skin    : "dark"
 
 # Site Settings
@@ -11,7 +12,7 @@ name                     : "ar33zy"
 description              : "pwn skiddie of hackstreetboys | I pwn 4 food"
 url                      : "https://ar33zy.hackstreetboys.ph"
 baseurl                  : #""
-repository               : "ar33zy/ctf-writeups"
+#repository               : "ar33zy/ctf-writeups"
 teaser                   : # pat"/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
@@ -182,6 +183,7 @@ plugins:
   - jekyll-sitemap
   - jekyll-gist
   - jekyll-feed
+  - jemoji
   - jekyll-include-cache
 
 # mimic GitHub Pages with --safe
@@ -190,8 +192,7 @@ whitelist:
   - jekyll-sitemap
   - jekyll-gist
   - jekyll-feed
-  - jekyll-include-cache
-
+  - jemoji
 
 # Archives
 #  Type
