@@ -257,6 +257,7 @@ DEPENDENCIES
   jekyll (= 3.8.5)
   jekyll-data
   jekyll-feed (= 0.13.0)
+  jekyll-include-cache
   minimal-mistakes-jekyll
 
 BUNDLED WITH
