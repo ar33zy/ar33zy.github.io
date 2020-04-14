@@ -9,7 +9,7 @@ title                    : "ar33zy"
 title_separator          : "|"
 subtitle                 : "pwn skid adventures"
 name                     : "ar33zy"
-description              : "pwn skiddie of hackstreetboys | I pwn 4 food"
+description              : "pwn skiddie of hackstreetboys | pwning 4 food"
 url                      : "https://ar33zy.hackstreetboys.ph"
 baseurl                  : #""
 #repository               : "ar33zy/ctf-writeups"
@@ -79,22 +79,25 @@ analytics:
 author:
   name             : "ar33zy"
   avatar           : "/assets/images/avatar.png"
-  bio              : "pwn skiddie of hackstreetboys"
+  bio              : "pwn skiddie of hackstreetboys<br>-<br>pwning 4 food"
   location         : "PH"
   email            :
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
       url: mailto:ar33zy@protonmail.com
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      url: "https://ar33zy.hackstreetboys.ph"
+    - label: "hackstreetboys"
+      icon: "fas fa-fw fa-users"
+      url: "https://hackstreetboys.ph"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/ar33zy_"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/ar33zy"
+    - label: "HackTheBox"
+      icon: "fas fa-fw fa-laptop"
+      url: "https://www.hackthebox.eu/home/users/profile/26849"
 
 # Site Footer
 footer:
