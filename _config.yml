@@ -59,7 +59,7 @@ naver_site_verification  :
 
 twitter:
   username               : "ar33zy_"
-og_image                 : # Open Graph/Twitter default site image
+og_image                 : "/assets/images/avatar.png" # Open Graph/Twitter default site image
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
@@ -79,13 +79,13 @@ analytics:
 author:
   name             : "ar33zy"
   avatar           : "/assets/images/avatar.png"
-  bio              : "pwn skiddie of hackstreetboys<br>-<br>pwning 4 food"
+  bio              : "pwn skiddie of hackstreetboys<br>---<br>pwning 4 food"
   location         : "PH"
   email            :
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: mailto:ar33zy@protonmail.com
+      url: "mailto:ar33zy@protonmail.com"
     - label: "hackstreetboys"
       icon: "fas fa-fw fa-users"
       url: "https://hackstreetboys.ph"
@@ -97,7 +97,7 @@ author:
       url: "https://github.com/ar33zy"
     - label: "HackTheBox"
       icon: "fas fa-fw fa-laptop"
-      url: "https://www.hackthebox.eu/home/users/profile/26849"
+      url: "https://www.hackthebox.eu/profile/26849"
 
 # Site Footer
 footer:

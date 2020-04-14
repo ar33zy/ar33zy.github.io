@@ -1,18 +1,17 @@
 ---
 layout: single
 title:  "ROOTCON Easter Egg 2020 Write-up"
-date:   2020-04-14 
+excerpt: "Since I got a lot of free time (and heard about the big prize), I decided to participate in ROOTCON Easter Egg Hunt 2020, hosted by Pwn De Manila. Luckily, I finished second place on this event."
+date: "2020-04-14"
 classes: wide
 categories:
 - rootcon
 - ctf
 tags:
-- can dump
-- volatility 
-- unicode stego
+- candump
+- memdump 
 - maldoc
-- stream cipher
-- alphabet cipher
+- OTP
 ---
 
 ![](/assets/images/ctf/rootcon_easter_egg_2020/site.png)  
@@ -331,13 +330,11 @@ Using ```sc4rl37_w1tch_l0v3``` as the password did not extract the contents of t
 
 ![](/assets/images/ctf/rootcon_easter_egg_2020/mind11.png)    
 
-I took a stepback and tried to find the real password. 
-
-I tried to check the memory dump using keywords from ```To Wanda.txt```.  
+I took a stepback and tried to find the correct password on the memory dump using keywords from ```To Wanda.txt```.  
 
 ![](/assets/images/ctf/rootcon_easter_egg_2020/mind12.png)    
 
-I got a familiar string, ```h_my_l0v3``` (almost similar to ```h_l0v3```), retried the password ```sc4rl37_w1tch_my_l0v3``` and it was able to open the archive.
+Got a familiar string, ```h_my_l0v3``` (almost similar to ```h_l0v3```), tried the new password - ```sc4rl37_w1tch_my_l0v3```, and was able to open the archive.
 
 ![](/assets/images/ctf/rootcon_easter_egg_2020/mind13.png)      
 
@@ -345,18 +342,18 @@ The extracted folder contains 748 files.
 
 ![](/assets/images/ctf/rootcon_easter_egg_2020/mind14.png)    
 
-Upon inspecting, I saw a strange file with a different file name length.  
+Upon inspecting, I saw a odd-looking file with a different file name length.  
 
 ![](/assets/images/ctf/rootcon_easter_egg_2020/mind15.png)      
 
-The odd-length file contains a QR code which contains the egg for this challenge.   
+This odd-length file contains a QR code which contains the egg for this challenge.   
 
 ![](/assets/images/ctf/rootcon_easter_egg_2020/mind_egg.jpg)    
 
 Mind egg: rc_easter{y0u_c0uld_n3veR_huRt_m3_I_ju57_f33l_y0u}  
 
 
-**Note: The issue I encountered while extracting the second part of the password is when I tried to copy the contents of the file from the terminal. Some unicode bytes are truncated from it. Learned this when I shared my solution to the challenge creator.**
+**Note: The issue I encountered while extracting the second part of the password is when I tried to copy the contents of the file from the terminal. Some unicode bytes are being truncated by the terminal. Learned this when I shared my solution to the challenge creator.**
  
 ## Soul   
 
