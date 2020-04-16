@@ -247,6 +247,7 @@ DEPENDENCIES
   github-pages
   jekyll-feed (= 0.13.0)
   jekyll-include-cache
+  jekyll-seo-tag
 
 BUNDLED WITH
    1.17.3
