@@ -46,7 +46,7 @@ A quick check using ```id``` shows that the current user is ```www-data```. Ther
 
 ## PrivEsc to David
 
-A quick check on ```/etc/passwd/``` shows that there is a user named ```david``` on this machine (david - David White the web developer lol).  
+A quick check on ```/etc/passwd/``` shows that there is a user named ```david``` in this machine (david - David White the web developer lol).  
 
 ![](/assets/images/htb/traverxec/users.png)  
 
@@ -59,7 +59,7 @@ Backtracking to nostromo web server. The config file gives us the following info
 
 ![](/assets/images/htb/traverxec/nhttpd.png)  
 
-There are notable infomation on this conf file:  
+There are notable infomation in this conf file:  
 
 ```
 # HOMEDIRS [OPTIONAL]
