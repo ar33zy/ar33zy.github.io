@@ -24,7 +24,7 @@ A quick masscan + nmap scan gives us the following info.
 
 ![](/assets/images/htb/traverxec/scan.png)  
 
-It seems that the entry points for this machine is limited to 2 ports, via HTTP and via SSH. Credentials are needed for SSH access so let's proceed with checking up the web server. Take note that the web server is running ```nostromo 1.9.6```.
+It seems that the entry point for this machine is limited to 2 ports, via HTTP and via SSH. Credentials are needed for SSH access so let's proceed with checking up the web server. Take note that the web server is running ```nostromo 1.9.6```.
 
 ## Nostromo Webserver
 
