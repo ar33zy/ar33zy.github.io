@@ -122,7 +122,7 @@ Executing this command did not invoke a pager, and that is because of ```-n``` p
            "all" to disable line limiting. The default value is 10 if no argument is given.
 ```
 
-The trick we can use is to minimize the terminal, so that we can force to open a pager even if the output is just 5 lines.
+The trick we can use is minimizing the terminal, so that it is forced to open a pager even if the output is just 5 lines.
 
 ![](/assets/images/htb/traverxec/pager.png)    
 
