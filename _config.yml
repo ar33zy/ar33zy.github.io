@@ -5,7 +5,7 @@ minimal_mistakes_skin    : "dark"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "ar33zy"
+title                    : "ar33zy | pwn skid adventures"
 title_separator          : "|"
 subtitle                 : "pwn skid adventures"
 name                     : "ar33zy"
@@ -15,7 +15,7 @@ baseurl                  : #""
 #repository               : "ar33zy/ctf-writeups"
 teaser                   : "/assets/images/avatar.png"
 logo                     : # "/assets/images/avatar.png"
-masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
+masthead_title           : "ar33zy" # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
@@ -248,4 +248,5 @@ defaults:
       comments: # true
       share: true
       related: true
+      sitemap: true
 
