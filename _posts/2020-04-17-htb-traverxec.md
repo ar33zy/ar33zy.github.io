@@ -1,7 +1,7 @@
 ---
 layout: single
 title:  "HTB Writeup - Traverxec"
-excerpt: "Traverxec is one of the beginner friendly boxes in HTB. This machine hosts a webserver vulnerable to remote code execution, exposes a backup SSH private key for user pivot, and allowing a non-privileged user invoke journalctl as root leading to machine pwn."
+excerpt: "Traverxec is one of the beginner friendly boxes in HTB. This machine is hosting a webserver vulnerable to remote code execution, exposing a backup SSH private key for user pivot, and allowing a non-privileged user invoke journalctl as root leading to machine pwn."
 date: "2020-04-17"
 classes: wide
 categories:
@@ -16,7 +16,7 @@ tags:
 
 ![](/assets/images/htb/traverxec/logo.png)  
 
-Traverxec is one of the beginner friendly boxes in HTB. This machine hosts a webserver vulnerable to [remote code execution](https://www.rapid7.com/db/modules/exploit/multi/http/nostromo_code_exec), exposes a backup SSH private key for user pivot, and allowing a non-privileged user invoke journalctl as root leading to machine pwn.
+Traverxec is one of the beginner friendly boxes in HTB. This machine is hosting a webserver vulnerable to [remote code execution](https://www.rapid7.com/db/modules/exploit/multi/http/nostromo_code_exec), exposing a backup SSH private key for user pivot, and allowing a non-privileged user invoke journalctl as root leading to machine pwn.
 
 ## Recon
 
