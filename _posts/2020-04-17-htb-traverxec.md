@@ -132,4 +132,4 @@ Executing ```!/bin/sh``` while on a pager gives us root privileges.
 
 -- 
 
-![ar33zy](http://www.hackthebox.eu/badge/image/26849)
+![ar33zy](https://www.hackthebox.eu/badge/image/26849)
