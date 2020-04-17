@@ -114,7 +114,7 @@ Since ```journalctl``` can be executed as root, we can use this technique to esc
 
 ![](/assets/images/htb/traverxec/fail.png)    
 
-Executing this command did not ivnoke a pager, and that is because of ```-n``` parameter. According to ```journalctl``` man page, 
+Executing this command did not invoke a pager, and that is because of ```-n``` parameter. According to ```journalctl``` man page, 
 
 ```
        -n, --lines=
