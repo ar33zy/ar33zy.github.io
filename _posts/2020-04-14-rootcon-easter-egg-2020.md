@@ -2,6 +2,8 @@
 layout: single
 title:  "ROOTCON Easter Egg 2020 Write-up"
 excerpt: "Since I got a lot of free time (and heard about the big prize), I decided to participate in ROOTCON Easter Egg Hunt 2020, hosted by Pwn De Manila. Luckily, I finished second place on this event."
+header:
+  teaser: "/assets/images/ctf/rootcon_easter_egg_2020/site.png"
 date: "2020-04-14"
 classes: wide
 categories:

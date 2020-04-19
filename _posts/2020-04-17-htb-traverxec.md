@@ -2,6 +2,8 @@
 layout: single
 title:  "HTB Writeup - Traverxec"
 excerpt: "Traverxec is one of the beginner friendly boxes in HTB. This machine is hosting a webserver vulnerable to remote code execution, exposing a backup SSH private key for user pivot, and allowing a non-privileged user invoke journalctl as root leading to machine pwn."
+header:
+  teaser: "/assets/images/htb/traverxec/logo.png"
 date: "2020-04-17"
 classes: wide
 categories:
@@ -20,7 +22,7 @@ Traverxec is one of the beginner friendly boxes in HTB. This machine is hosting 
 
 ## Recon
 
-A quick masscan + nmap scan gives us the following info.  
+A quick masscan + nmap scan gives us the following info:   
 
 ![](/assets/images/htb/traverxec/scan.png)  
 
